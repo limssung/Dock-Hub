@@ -9,12 +9,17 @@
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 
-
+	
 	<repositories>
 		<repository>
 			<id>oracle driver</id>
 			<url>http://www.datanucleus.org/downloads/maven2/</url>
 		</repository>
+        	<repository>
+		    <id>oracle</id>
+		    <name>ORACLE JDBC Repository</name>
+		    <url>http://maven.jahia.org/maven2</url>
+        	</repository>
 	</repositories>
 
 	<properties>
